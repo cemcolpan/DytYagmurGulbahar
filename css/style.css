@@ -298,17 +298,92 @@ section{
     padding: 1rem 0;
 }
 
-.banner .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
-    gap:0rem;
-}
-
 .banner .box-container .box img{
     margin:1rem 0;
     width:100%;
     object-fit: cover;
 }
+.banner .box-container .box-whatsapp{
+    position: absolute;
+    left: 35rem;
+}
+
+
+.comments .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    background:#FCF8F3;
+    font-size: 1.5rem;
+}
+
+.comments .box-container .box-left{
+    padding: 3rem 3rem;
+    background:#FCF8F3;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.comments .box-container .box-left h3{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.comments .box-container .box-left p{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+
+.comments .box-container .banner {
+    height: 40rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.comments .box-container .banner img {
+    height: 100%;
+    width: 54%;
+    object-fit: cover;
+}
+
+.comments .box-container .banner .content{
+    width: 50%;
+    padding: .2rem .2rem;
+    position: absolute;
+    top: 80%; left: 8.5rem;
+    transform: translate(-30%);
+    background-color:rgba(255, 255, 255, 0.6);
+} 
+
+.comments .box-container .banner .content span{ 
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--brown);
+}
+
+.comments .box-container .banner .content h3{ 
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--light-color);
+}
+
+.comments .box-container .banner a {
+    width: 10%;
+    height: 13%;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 77%; left: 26rem;
+}
+
 
 
 .footer{
