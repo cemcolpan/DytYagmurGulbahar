@@ -10,6 +10,9 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
+    <!-- swiper-bundle cdn link  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -36,6 +39,39 @@
 
     </header>
     <!-- header section ends -->
+    <!-- home section starts-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(image/home-img-1.jpg);">
+                    <div class="content">
+                        <span>Diyetisyen Yasemin Gülbahar</span>
+                        <h3>Online Görüşme</h3>
+                        <a href="#" class="btn">Şimdi Başla</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(image/home-img-2.jpg);">
+                    <div class="content">
+                        <span>Diyetisyen Yasemin Gülbahar</span>
+                        <h3>Online Görüşme</h3>
+                        <a href="#" class="btn">Şimdi Başla</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(image/home-img-3.jpg);">
+                    <div class="content">
+                        <span>Diyetisyen Yasemin Gülbahar</span>
+                        <h3>Online Görüşme</h3>
+                        <a href="#" class="btn">Şimdi Başla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- home section ends-->
     <!-- features section start-->
     <section class="features" id="features">
         <div class="box-container">
@@ -83,31 +119,74 @@
     <!-- Online Consulting section ends-->
 
     <!-- Blog section start-->
-    <section class="blog" id="blog">
+
+
+
+    <section class="blogs" id="blogs">
+
         <h1 class="heading"> Blog<span>Yazılarım</span> </h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="image/blog-img-1.png" alt="">
-                <h3>Sağlıklı Yaşam Adımı Beslenmeyle Başlar</h3>
-                <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında maalesef bir eğitim
-                    verilmemektedir.</p>
-                <input type="submit" value="Devamını Gör" class="btn-readmore">
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/blog-img-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                        <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında maalesef
+                            bir
+                            eğitim verilmemektedir.</p>
+                        <a href="#" class="btn-readmore">Devamını Gör</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/blog-img-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                        <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında maalesef
+                            bir
+                            eğitim verilmemektedir.</p>
+                        <a href="#" class="btn-readmore">Devamını Gör</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/blog-img-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                        <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında maalesef
+                            bir
+                            eğitim verilmemektedir.</p>
+                        <a href="#" class="btn-readmore">Devamını Gör</a>
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="image/blog-img-2.png" alt="">
-                <h3>Fazla İştahımı Nasıl Azaltabilirim?</h3>
-                <p>Öğünlerinize çorba ekleyin. Yemekte önden içeceğiniz bir kase çorba, hacminden dolayı midenizi
-                    doldurur, sizi yavaşlatır</p>
-                <input type="submit" value="Devamını Gör" class="btn-readmore">
-            </div>
-            <div class="box">
-                <img src="image/blog-img-3.png" alt="">
-                <h3>Metabolizma Hakkındaki Gerçekler</h3>
-                <p>Vücudumuzda sürekli olarak yapım ve yıkım işlemleri yapılmaktadır. Yapım işlemlerine anabolizma,
-                    yıkım işlemlerine ise</p>
-                <input type="submit" value="Devamını Gör" class="btn-readmore">
-            </div>
+
+            <div class="swiper-pagination"></div>
+
         </div>
+
     </section>
     <!-- Blog section ends -->
 
@@ -116,9 +195,6 @@
         <div class="box-container">
             <div class="box">
                 <img src="image/banner.png" alt="">
-            </div>
-            <div class="box-whatsapp">
-                <input type="submit" value="Bize Whatsapp Üzerinden Ulaşın" class="btn-brown">
             </div>
         </div>
     </section>
@@ -138,26 +214,94 @@
                 <p>Online ve Yüzyüze danışanlarımın yorumları. İstediğiniz zaman başlayabiliriz.</p>
                 <input type="submit" value="Yorum Yaz" class="btn-brown">
             </div>
-            <div class="banner">
-                <img src="image/comments-img-1.png" alt="">
-                <div class="content">
-                    <span>Sinem S.</span>
-                    <h3>1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. </h3>
+            <div class="swiper comments-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="image/comments-img-1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <span href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                                <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında
+                                    maalesef
+                                    bir
+                                    eğitim verilmemektedir.</p>
+                                <a href="#" class="btn-brown"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="image/comments-img-2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <span href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                                <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında
+                                    maalesef
+                                    bir
+                                    eğitim verilmemektedir.</p>
+                                <a href="#" class="btn-brown"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="image/comments-img-3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <span href="#" class="title">Sağlıklı Yaşam Adımı Beslenmeyle Başlar</a>
+                                <p>Yaşamımız boyunca her gün defalarca yemek yememize rağmen doğru beslenme hakkında
+                                    maalesef
+                                    bir
+                                    eğitim verilmemektedir.</p>
+                                <a href="#" class="btn-brown"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="btn-brown"><i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="banner">
-                <img src="image/comments-img-2.png" alt="">
-                <div class="content">
-                    <span>Sinem S.</span>
-                    <h3>1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. </h3>
-                </div>
-                <a href="#" class="btn-brown"><i class="fa-solid fa-arrow-right"></i></a>
+
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
     <!--Yorumlar section ends-->
 
+    <!--Instagram Section starts -->
+    <section class="instagram" id="instagram">
+        <h1 class="heading"> Instagram Ailemize Katılın</h1>
+        <div class="swiper instagram-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/insta-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/insta-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/insta-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/insta-img-4.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/insta-img-5.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--Instagram Section ends-->
     <!-- Footer section starts -->
     <section class="footer">
         <div class="box-container">
@@ -202,9 +346,13 @@
 
     <!-- Footer section ends -->
 
-
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
     <!-- custom js file link -->
     <script src="js/script.js"></script>
+
+
+
 </body>
 
 </html>
