@@ -653,8 +653,60 @@ section {
 
 /* /////////// FOOTER SECTION ENDS //////////  */
 
-
-
+/* /////////// ABOUT SECTION //////////  */
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+ }
+ 
+ .about .image{
+    flex:1 1 41rem;
+ }
+ 
+ .about .image img{
+    padding-top: 10rem;
+    width: 100%;
+ }
+ 
+ .about .content{
+    flex:1 1 41rem;
+ }
+ 
+ .about .content .title{
+    padding-top: 10rem;
+    font-size: 3.5rem;
+    color:var(--black);
+ }
+ 
+ .about .content p{
+    font-size: 1.3rem;
+    color:var(--light-color);
+    padding:.5rem 0;
+    line-height: 1.7;
+ }
+ 
+ .about .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin-top: 3rem;
+ }
+ 
+ 
+ .about .content .icons-container .icons img{
+    height: 5rem;
+ }
+ 
+ .about .content .icons-container .icons h3{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color:var(--light-color);
+    font-weight: normal;
+ }
+ 
+/* /////////// ABOUT SECTION ENDS //////////  */
 
 
 
