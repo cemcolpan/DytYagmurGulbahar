@@ -367,6 +367,11 @@ section {
 
 /* /////////// BLOGS SECTION //////////  */
 
+.blogs .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
 
 .blogs .slide .image {
     height: 25rem;
@@ -707,6 +712,128 @@ section {
  }
  
 /* /////////// ABOUT SECTION ENDS //////////  */
+
+/* /////////// SERVICES SECTION //////////  */
+
+.services{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 140px 90px 45px 60px;
+  }
+  .services .image-box{
+    height: 360px;
+    width: 300px;
+  }
+  .services .image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .services .accordion-text{
+    width: 80%;
+  }
+  .services .accordion-text .title{
+    font-size: 35px;
+    color: var(--brown);
+  }
+  .services .accordion-text .faq-text{
+    margin-top: 25px;
+    height: 263px;
+    overflow-y: auto;
+  }
+  .faq-text::-webkit-scrollbar{
+    display: none;
+  }
+  .services .accordion-text li{
+    list-style: none;
+    cursor: pointer;
+  }
+  .accordion-text li .question-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .accordion-text li .question-arrow .question{
+    font-size: 18px;
+    color: #595959;
+    transition: all 0.3s ease;
+  }
+  .accordion-text li .question-arrow .arrow{
+    font-size: 25px;
+    color: #595959;
+    transition: all 0.3s ease;
+  }
+  .accordion-text li.showAnswer .question-arrow .arrow{
+    transform: rotate(-180deg);
+  }
+  .accordion-text li:hover .question-arrow .question,
+  .accordion-text li:hover .question-arrow .arrow{
+    color: #7d2ae8;
+  }
+  .accordion-text li.showAnswer .question-arrow .question,
+  .accordion-text li.showAnswer .question-arrow .arrow{
+    color: #7d2ae8;
+  }
+  .accordion-text li .line{
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .accordion-text li p{
+    width: 92%;
+    font-size: 12px;
+    color: #595959;
+    display: none;
+  }
+  .accordion-text li.showAnswer p{
+    display: block;
+  }
+/* /////////// SERVICES SECTION ENDS //////////  */
+
+/* /////////// BLOGS - DETAIL SECTION //////////  */
+
+.blogs-detail .box {
+margin-top: 11rem;
+}
+.blogs-detail .box .image {
+    height: 40rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.blogs-detail .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs-detail .box .content {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.blogs-detail .box .content .title {
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.blogs-detail .box .content .title:hover {
+    text-decoration: underline;
+}
+
+.blogs-detail .box .content p {
+    padding: .4rem 0;
+    line-height: 1.6;
+    font-size: 1.3rem;
+    color: var(--light-color);
+}
+/* /////////// BLOGS - DETAIL SECTION ENDS //////////  */
 
 /* /////////// CONTACT SECTION  //////////  */
 
